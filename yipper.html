@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+  HTML for Pokedex Assignment for CSE 154 HW3.
+  DO NOT MODIFY THIS HTML.
+
+  All Pokemon images originally found from https://bulbapedia.bulbagarden.net/wiki/.
+-->
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Yipper</title>
+    <link href='yipper.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
+    <script src='yipper.js'></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="img/pawprint.png" alt="pawprint">
+        <h1>Yipper</h1>
+      </div>
+      <nav>
+        <input type="text" id="search-term">
+        <button id="search-btn" disabled>search</button>
+        <button id="home-btn">home</button>
+        <button id="yip-btn">yip</button>
+      </nav>
+    </header>
+    <main>
+      <article id="yipper-data">
+        <section id="home"></section>
+        <section id="user" class="hidden"></section>
+        <section id="new" class="hidden">
+          <h2>Share what's on your mind:</h2>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="yip">What's on your mind?</label>
+            <input type="text" id="yip" required pattern="^([a-zA-Z0-9_\s.?!])*#{1}([a-zA-Z0-9]*)$">
+            <button>Submit!</button>
+          </form>
+        </section>
+      </article>
+      <h2 id="error" class="hidden">
+        A cat must have invaded our site, please try again later!.
+      </h2>
+    </main>
+  </body>
+</html>

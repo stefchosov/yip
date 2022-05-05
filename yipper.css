@@ -1,0 +1,181 @@
+header, .individual {
+  font-family: 'Chelsea Market', cursive;
+}
+
+button, input, main {
+  font-family: 'Roboto', sans-serif;
+}
+
+header, header nav, header div {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+header nav, header div {
+  justify-content: space-around;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1vw;
+  margin: 1%;
+  width: 20%;
+  cursor: pointer;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+button:hover {
+  background-color: #E8E4E1;
+}
+
+header {
+  background-color: #B58BAB;
+  height: 15vh;
+  position: sticky;
+  top: 0px;
+}
+
+header h1 {
+  letter-spacing: 2vw;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+header img {
+  margin-right: 1.5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  height: 8vh;
+}
+
+header nav input {
+  height: 35px;
+  width: 35vw;
+}
+
+.hidden {
+  display: none;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 20px;
+  padding-left: 15pt;
+}
+
+#new form {
+  display: flex;
+  flex-direction: column;
+  background-color: #CCA772;
+  width: 45vw;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
+}
+
+#new form input {
+  width: 40vw;
+  height: 35px;
+}
+
+#new form label {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.card, .card div {
+  display: flex;
+}
+
+.card {
+  background-color: #C4C4C0;
+  padding: 1.5vh;
+  border-radius: 10px;
+  font-size: 16pt;
+  margin: 1.5vh;
+}
+
+.card img {
+  padding: 1vh;
+  border-radius: 50%;
+  background-color: #CCA772;
+}
+
+.card > img {
+  height: 14vh;
+}
+
+.meta img {
+  height: 2vh;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.meta img:hover {
+  transform: scale(1.1);
+}
+
+.card > div {
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.card p {
+  margin: 0px;
+}
+
+.individual {
+  cursor: pointer;
+}
+
+.individual:hover {
+  text-decoration: underline #694364;
+}
+
+.meta {
+  margin-left: auto;
+  padding-right: 10px;
+  font-size: 16px;
+  flex: 0 0 15%;
+}
+
+.meta div {
+  flex-direction: row;
+  align-items: center;
+}
+
+.single {
+  background-color: #E8E4E1;
+  border-radius: 10px;
+  margin: 1.5vh;
+  padding: 1.5vh;
+}
+
+.single p {
+  font-size: 16px;
+  background-color: #CCA772;
+  border-radius: 10px;
+  padding: 1.5vh;
+}
+
+.single p:hover {
+  transform: scale(1.01);
+}
