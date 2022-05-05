@@ -1,9 +1,4 @@
 /**
- * Stefan Arsov
- * Jeff Worley
- * AE
- *
- * 8/20/2020
  * This is the node.js file which holds all the server side functionality for yipper. It supplies
  * the yipper data through 4 endpoints as well as provides the local server for the webpage.
  *
