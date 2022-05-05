@@ -1,10 +1,6 @@
 "use strict";
 
 /**
- * Stefan Arsov
- * Jeff Worley
- * AE
- * 8/20/20
  * This yipper.js file provides all the client-side functionality for the yipper webpage to
  * work. It will change between the different page views, make post calls and fetch calls to
  * retrieve any necessary data from the server-side. It is the js file of yipper.html and will
